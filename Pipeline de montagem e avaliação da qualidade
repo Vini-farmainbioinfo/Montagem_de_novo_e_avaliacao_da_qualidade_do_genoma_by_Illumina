@@ -15,5 +15,7 @@ ava -jar /usr/share/java/trimmomatic-0.39.jar SE input_1.fq.gz reads_trimm/outpu
 
 Paramêtros: -k 21,33,55,77,99,127 -t 4 &
 
-spades.py --careful -o ../outputbin -1 input_1_paired.fq.gz -2 input_2_paired.fq.gz -s input_1_unpaired.fq.gz -s output_2_unpaired.fq.gz -k 21,33,55,77,99,127 -t 4 &
+spades.py --careful -o ../outputdirectory -1 input_1_paired.fq.gz -2 input_2_paired.fq.gz -s input_1_unpaired.fq.gz -s input_2_unpaired.fq.gz -k 21,33,55,77,99,127 -t 4 &
+
+
 
