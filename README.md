@@ -1,2 +1,3 @@
-# Montagem_de_novo_e_avaliacao_da_qualidade_do_genoma_by_Illumina
-Pipeline inicial da montagem de novo e avaliação da qualidade dos genomas provenientes de sequenciamento pela plataforma Illumina
+# Building My Genome By Vini-farmainbioinfo
+Esse pipeline de montagem e avaliação da qualidade de genomas foi criado durante a confecção do Trabalho de Conclusão de Curso denominado "Análise genômica de bactérias multirresistentes isoladas de alimentos minimamente processados" do curso de Farmácia na Universidade Federal de Juiz de Fora (UFJF). O pipeline foi
+foi pensado para ser uma maneira organizada, objetiva e de fácil entendimento contendo os passos necessários para montar e avaliar a qualidade de genomas provenientes do sequenciamento Illumina.
