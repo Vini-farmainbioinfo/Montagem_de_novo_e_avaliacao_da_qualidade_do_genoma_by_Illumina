@@ -1,5 +1,5 @@
 
-1)Controle de qualidade visando a remoção das sequências de baixa qualidade é feito utilizando o software Trimmomatic (https://github.com/usadellab/Trimmomatic).
+1 - Controle de qualidade visando a remoção das sequências de baixa qualidade é feito utilizando o software Trimmomatic (https://github.com/usadellab/Trimmomatic).
 
 Paramêtros: TRAILING: 10 LEADING: 10 SLIDINGWINDOW: 4:20 MINLEN: 50
 
@@ -11,11 +11,15 @@ Se os dados são single-end:
 
 <pre><code> java -jar /usr/share/java/trimmomatic-0.39.jar SE input_1.fq.gz reads_trimm/output_1_unpaired.fq.gz TRAILING:10 LEADING:10 SLIDINGWINDOW:4:20 MINLEN:50 <pre><code>
 
-2) Montagem do genoma usando o software SPAdes (
+2 - Montagem do genoma usando o software SPAdes (https://github.com/ablab/spades)
 
 Paramêtros: -k 21,33,55,77,99,127 -t 4 &
 
-spades.py --careful -o ../outputdirectory -1 input_1_paired.fq.gz -2 input_2_paired.fq.gz -s input_1_unpaired.fq.gz -s input_2_unpaired.fq.gz -k 21,33,55,77,99,127 -t 4 &
+<pre><code> spades.py --careful -o ../outputdirectory -1 input_1_paired.fq.gz -2 input_2_paired.fq.gz -s input_1_unpaired.fq.gz -s input_2_unpaired.fq.gz -k 21,33,55,77,99,127 -t 4 &
+
+
+
+
 
 
 
