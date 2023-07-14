@@ -9,7 +9,7 @@ Se os dados são paired-end:
 
 Se os dados são single-end: 
 
-ava -jar /usr/share/java/trimmomatic-0.39.jar SE input_1.fq.gz reads_trimm/output_1_unpaired.fq.gz TRAILING:10 LEADING:10 SLIDINGWINDOW:4:20 MINLEN:50
+<pre><code> java -jar /usr/share/java/trimmomatic-0.39.jar SE input_1.fq.gz reads_trimm/output_1_unpaired.fq.gz TRAILING:10 LEADING:10 SLIDINGWINDOW:4:20 MINLEN:50 <pre><code>
 
 2) Montagem do genoma usando o software SPAdes (
 
