@@ -1,1 +1,9 @@
 
+Controle de qualidade visando a remoção das sequências de baixa qualidade é feito utilizando o software Trimmomatic (https://github.com/usadellab/Trimmomatic).
+
+Paramêtros: TRAILING: 10 LEADING: 10 SLIDINGWINDOW: 4:20 MINLEN: 50
+
+Comando
+
+
+
