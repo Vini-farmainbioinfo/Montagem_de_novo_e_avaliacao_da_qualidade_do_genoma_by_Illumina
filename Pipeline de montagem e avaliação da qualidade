@@ -19,7 +19,10 @@ Paramêtros: -k 21,33,55,77,99,127 -t 4 &
 
 3 - Verificação da qualidade da montagem usando o software QUAST (https://github.com/ablab/quast)
 
-quast.py --glimmer --rna-finding /folder_results_SPAdes/contigs.fasta
+<pre><code> 
+quast.py --glimmer --rna-finding /folder_results_SPAdes/contigs.fasta 
+<pre><code>
+
 
 
 
