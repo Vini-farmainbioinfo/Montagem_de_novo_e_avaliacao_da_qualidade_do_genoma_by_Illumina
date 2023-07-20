@@ -3,7 +3,7 @@ Esse pipeline de montagem e avaliação da qualidade de genomas foi criado duran
 foi pensado para ser uma maneira organizada, objetiva e de fácil entendimento contendo os passos necessários para montar e avaliar a qualidade de genomas provenientes do sequenciamento Illumina.
 
 
-1 - Controle de qualidade visando a remoção das sequências de baixa qualidade é feito utilizando o software Trimmomatic (https://github.com/usadellab/Trimmomatic).
+1 - Controle de qualidade visando a remoção das sequências de baixa qualidade é feito utilizando o software Trimmomatic (https://github.com/usadellab/Trimmomatic). O comando abaixo irá depositar os arquivos gerados em uma pasta chamada *reads_trimm*.
 
 *Paramêtros: TRAILING: 10 LEADING: 10 SLIDINGWINDOW: 4:20 MINLEN: 50*
 
