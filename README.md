@@ -27,3 +27,7 @@ Se os dados são single-end:
 <pre><code> 
 quast.py --glimmer --rna-finding /folder_results_SPAdes/contigs.fasta 
 </code></pre>
+
+4 - É indicado a exclusão dos contigs menores que 500 pb para realizar futuras análises. É utilizado o programa seqtk (https://github.com/lh3/seqtk)
+
+<pre><code>  seqtk seq -L 500 output/contigs.fasta > contigs_500bp.fasta </code></pre>
